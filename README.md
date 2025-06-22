@@ -7,7 +7,7 @@
 
 그래서 저는 이러한 과정을 자동화하고, 제 선호에 적합한 매치를 추천해 주는 프로젝트를 기획하게 되었습니다. 이 프로젝트를 통해 앞으로 매치 선정에 소요되는 시간을 줄이고, 더 쉽게 경기에 참가할 수 있기를 기대합니다.
 
-## 매치 score 계산 기준
+## ➕ 매치 score 계산 기준
 [예시 HTML 파일 보기](match_detail_page_example.html) (파일이 커서 미리보기가 안 되므로 다운로드해 주세요.)
 
 [score_evaluate.py](score_evaluate.py) 파일을 실행하고 매치 상세 페이지에 해당하는 html 파일이 저장되어 있는 주소를 입력하면 다음과 같은 정보를 추출하여 각 기준별로 score를 부여하고 이를 합산하여 total_score를 산출합니다.<br><br>
@@ -18,7 +18,7 @@
 (아마추어 2, 4 : 9점, 아마추어 1, 5 : 7점, 그 외 : 4점)<br><br>
 
 2. 구장이 큰 매치에 높은 score를 부여합니다.
-<img src="images/detail_image_3.png" alt="설명" width="200"/>
+<img src="images/detail_image_3.png" alt="설명" width="150"/>
 구장의 가로와 세로 정보를 추출하여 면적을 계산하고 이에 따라 score를 부여합니다.
 
 (800 이상 : 5점, 750~799 : 4점 등)<br><br>
