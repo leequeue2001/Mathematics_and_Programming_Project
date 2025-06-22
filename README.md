@@ -9,3 +9,5 @@
 
 ## 매치 score 계산 기준
 [HTML 파일 보기](images/match_detail_page_example.html) (파일이 커서 미리보기가 안 되므로 다운로드해 주세요.)
+
+![예상 평균 레벨](images/detail_image_1.png)
