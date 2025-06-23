@@ -7,6 +7,22 @@
 
 그래서 저는 이러한 과정을 자동화하고, 제 선호에 적합한 매치를 추천해 주는 프로젝트를 기획하게 되었습니다. 이 프로젝트를 통해 앞으로 매치 선정에 소요되는 시간을 줄이고, 더 쉽게 경기에 참가할 수 있기를 기대합니다.
 
+## 🔧 설치 및 환경 🔧
+
+- **Python 3**가 설치되어 있어야 합니다.  
+  [Python 공식 다운로드 페이지](https://www.python.org/downloads/)에서 운영체제에 맞는 버전을 설치하세요.
+
+- **필수 라이브러리:**  
+  - `beautifulsoup4` (HTML 파일 파싱 및 정보 추출에 사용)
+
+### 설치 방법
+
+1. 터미널(명령 프롬프트)을 열고 아래 명령어를 입력하여 BeautifulSoup4를 설치합니다.
+
+   ```bash
+   pip install beautifulsoup4
+
+
 ## ➕ 매치 score 계산 기준 🟰
 [예시 HTML 파일 보기](match_detail_page_example.html) (파일이 커서 미리보기가 안 되므로 다운로드해 주세요.)
 
@@ -14,8 +30,9 @@
 <img src="images/detail_image_1.png" alt="설명" width="500"/>
 
 예상 평균 레벨이 내 실력과 가장 비슷한 아마추어 3인 경우 10점을 부여하고 이와 멀어질수록 차등적으로 낮은 점수를 부여합니다.
-
-(아마추어 2, 4 : 9점, 아마추어 1, 5 : 7점, 그 외 : 4점)<br><br>
+- 아마추어 2, 4 : 9점  
+- 아마추어 1, 5 : 7점  
+- 그 외 : 4점<br><br>
 
 2. 구장이 큰 매치에 높은 score를 부여합니다.
 <img src="images/detail_image_3.png" alt="설명" width="150"/>
@@ -57,6 +74,11 @@
 
 그동안 프로그래밍의 활용법과 그 장점에 대해 이론적으로만 배워 왔는데, 이번 프로젝트를 통해 직접 프로그래밍을 활용하여 실제로 나의 시간과 노력을 절약해 줄 수 있는 결과물을 만들어 보니, 비로소 프로그래밍의 세계에 한 걸음 더 다가선 듯한 기분이 들었습니다.
 
+## 🔗 참고 자료 🔗
+
+- [플랩풋볼 공식 홈페이지](https://plapfootball.com/)
+- [SingleFile GitHub](https://github.com/gildas-lormeau/SingleFile)
+- [BeautifulSoup4 공식 문서](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 
 
