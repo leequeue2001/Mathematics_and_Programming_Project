@@ -37,7 +37,11 @@
 원하는 지역과 시간을 만족하는 매치들의 상세 페이지 html을 하나의 폴더에 저장합니다. (ex. 서울 중부/서남부, 6월 23일 19시~22시에 시작하는 매치)
 이 과정에서 "SingleFile" 등 다중 html 다운로드를 지원하는 확장 프로그램을 이용하면 여러 매치의 상세 페이지를 보다 쉽게 저장할 수 있습니다.
 
-[evaluate_top_3_detail.py](evaluate_top_3_detail.py) 파일을 실행하고 상세 페이지 html이 저장되어 있는 폴더의 주소를 입력하면, [score_evaluate.py](score_evaluate.py)를 import하여 각 매치에 대한 total_score를 계산합니다. 이후 다음과 같이 가장 높은 total_score를 얻은 top3 매치를 출력합니다.
+[evaluate_top_3_detail.py](evaluate_top_3_detail.py) 파일을 실행하고 상세 페이지 html 파일들이 저장되어 있는 폴더의 주소를 입력하면, [score_evaluate.py](score_evaluate.py)를 import하여 각 매치에 대한 total_score를 계산합니다. 이후 다음과 같이 가장 높은 total_score를 얻은 top3 매치와 상세 내용을 출력합니다.
+
+<img src="top_3_image.png" alt="설명" width="500"/>
+
+## 🚀 발전 가능성 및 향후 개선 방향 🚀
 
 
 
